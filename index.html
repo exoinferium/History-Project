@@ -1,0 +1,149 @@
+<!--"C:\Program Files\Google\Chrome\Application\chrome.exe" "$(FULL_CURRENT_PATH)"-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Women and People of Colour During Confederation</title>
+	<meta charset = "utf-8"/>
+	<link rel = "stylesheet" type = "text/css" href = "CommunityProject.css">
+	<script src="https://first-project-2918c.web.app/"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  </style>
+  </head>
+  <body>
+	<div id="header">
+	<h1> JAVA</h1>
+	</div>
+
+	<div id="content">
+		<div class="topnav">
+  <a class="active" href="CommunityProject.html" >Main Page</a>
+<script>
+
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+	</div>
+	</div>
+	<h2></h2>
+ <div id="content">
+	</div>
+<script>
+
+  function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+  
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+    </div>
+  
+  <button class="accordion">How might the lives of women and people of colour have changed after the confederation?</button>
+  <div class="panel">
+    <p>In 1867, people didn't care about quality, so not much was changed untill the 1900s because that was when the world wars started and a lot of people fought for it.</p>
+  </div>
+  
+  <button class="accordion">Why was the equality of women and people of color not important during the time of confederation?</button>
+  <div class="panel">
+    <p>People didn't care at the time because it was already normal and it was more trouble to change than it was worth.</p>
+  </div>
+  
+  <button class="accordion">How were women affected?</button>
+  <div class="panel">
+    <p>No matter what race, women were treated worse to their male counterparts. It has always been normalized at the time that women existed just to produce and take care of children. They usually didn’t have jobs, but if they did, they were paid very little. They were forced into arranged marriges that would benefit their families in terms of politics or wealth. The women who didn’t marry were discriminated against even more as since most people were Christian, people’s religeous beliefs and expectations of women made it worse. Women and children consisted of 50% of the light work.</p>
+    <img src="History-Women.jpg" alt="Housing Timeline">
+  </div>
+  
+  <button class="accordion">How were people of colour affected?</button>
+  <div class="panel">
+    <p>Chinese migrants and Indigenous people worked labour intensive jobs on railways and got paid almost half of what Europeans did for the same work. Even though the Chinese did a lot of labour in Canada, a few years after confederation, a head tax was passed to limit them from migrating to canada by making them pay around 100 dollars at the time just to stay in Canada, which equalled thousands of dollars today. This act lasted for almost 40 years. Indigenous people also got their land taken and they were still discriminated against. The indigenous people had more equality, as both the men and women had more control in what they could do instead of being forced by gender roles. They were still getting assimilated because residential schools were still on and indigenous people were forced into reserves. In these reserves, they were provided housing and some land, but they had to pay money even though they owned the land in the first place. They were also assimilated by not being able to use nature, where they could express their culture and being forced into being close to moden buildings. After Confederation, the French became the minority, being mostly located in Quebec. This led many people to worry about French culture being lost as it was being replaced by the English majority, so the government made French one of the primary languages and have its own cultural identity. There were also political disputes between English and French speaking provinces about languages and culture. They were also guaranteed representation in the government, but they still felt marginalized due to the English speaking dominance. Even though the French were treated as people of colour, they still faced a variety of pros and cons from confederation. Around confederation, the indigenous lost Rupert’s Land after it was sold to the Canadian government, but the government didn’t even consult the first nations and metis already living there, basically stealing land. This led to the Metis National Commitee, led by Louis Riel, who was french and metis, resisting the changes, but eventually he got executed due to leading the North-West Rebellion of 1885.</p>
+    <img src="History-Chinese.jpg" alt="Rent Statistics">
+    <img src="HIstory-Indigenous.jpg" alt="Housing Prices Statistics">
+  </div>
+  
+  <button class="accordion">When did it change?</button>
+  <div class="panel">
+    <p>Starting from the early 1900s, gradually, over decades, people became more aware of this inequality and decided to do something about it, leading to more equality but still far from perfect.</p>
+  </div>
+  
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+    <h1></h1>
+   </div>
+   <div id="content">
+   <div id="footer">
+ <div id="footer">
+	<h3> About us</h3>
+	<h4> We are an organization informing people about women and people of colour throughout Canadian History</h4>
+ </div>
+</body>
+</html>
